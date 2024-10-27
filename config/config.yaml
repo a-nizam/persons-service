@@ -1,0 +1,6 @@
+env: "local"
+storagepath: "../storage/data.db"
+grpc:
+  port: 40404
+  timeout: 5s
+
