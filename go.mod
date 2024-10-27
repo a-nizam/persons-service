@@ -1,4 +1,4 @@
-module persons/service
+module github.com/a-nizam/persons-service
 
 go 1.23.0
 

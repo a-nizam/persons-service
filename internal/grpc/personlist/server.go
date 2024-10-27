@@ -2,10 +2,11 @@ package personsgrpc
 
 import (
 	"context"
-	"persons/service/internal/domain/models"
-	pb "persons/service/internal/grpc/gen"
-	"persons/service/internal/services/personlist"
 	"time"
+
+	"github.com/a-nizam/persons-service/internal/domain/models"
+	pb "github.com/a-nizam/persons-service/internal/grpc/gen"
+	"github.com/a-nizam/persons-service/internal/services/personlist"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

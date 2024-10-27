@@ -3,7 +3,8 @@ package personlist
 import (
 	"context"
 	"log/slog"
-	"persons/service/internal/domain/models"
+
+	"github.com/a-nizam/persons-service/internal/domain/models"
 )
 
 type PersonList struct {

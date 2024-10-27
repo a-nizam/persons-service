@@ -3,11 +3,10 @@ package grpcapp
 import (
 	"fmt"
 	"log/slog"
-
-	personsgrpc "persons/service/internal/grpc/personlist"
-	personListService "persons/service/internal/services/personlist"
-
 	"net"
+
+	personsgrpc "github.com/a-nizam/persons-service/internal/grpc/personlist"
+	personListService "github.com/a-nizam/persons-service/internal/services/personlist"
 
 	"google.golang.org/grpc"
 )

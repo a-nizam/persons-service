@@ -2,9 +2,10 @@ package app
 
 import (
 	"log/slog"
-	grpcapp "persons/service/internal/app/grpc"
-	"persons/service/internal/services/personlist"
-	"persons/service/internal/storage"
+
+	grpcapp "github.com/a-nizam/persons-service/internal/app/grpc"
+	"github.com/a-nizam/persons-service/internal/services/personlist"
+	"github.com/a-nizam/persons-service/internal/storage"
 )
 
 type App struct {

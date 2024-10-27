@@ -4,9 +4,10 @@ import (
 	"log/slog"
 	"os"
 	"os/signal"
-	"persons/service/internal/app"
-	"persons/service/internal/config"
 	"syscall"
+
+	"github.com/a-nizam/persons-service/internal/app"
+	"github.com/a-nizam/persons-service/internal/config"
 )
 
 func main() {

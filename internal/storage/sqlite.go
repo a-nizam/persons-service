@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"persons/service/internal/domain/models"
+	"github.com/a-nizam/persons-service/internal/domain/models"
 
 	_ "github.com/mattn/go-sqlite3"
 )
